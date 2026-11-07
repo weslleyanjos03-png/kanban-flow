@@ -1,0 +1,31 @@
+name: Sugerir melhoria
+description: Conte o que facilitará o uso do Kanban Flow.
+title: "[Sugestão] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use exemplos fictícios e não compartilhe informações de clientes ou dados sensíveis."
+  - type: textarea
+    id: tarefa
+    attributes:
+      label: Qual atividade você estava tentando fazer?
+    validations:
+      required: true
+  - type: textarea
+    id: sugestao
+    attributes:
+      label: O que poderia melhorar?
+      description: Conte o resultado desejado e como você imagina a solução.
+    validations:
+      required: true
+  - type: dropdown
+    id: perfil
+    attributes:
+      label: Qual seu perfil de uso?
+      options:
+        - Uso pessoal
+        - Freelancer / autônomo
+        - Pequeno negócio
+        - Outro
+    validations:
+      required: false
