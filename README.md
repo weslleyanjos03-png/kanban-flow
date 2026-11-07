@@ -38,6 +38,14 @@ Se o projeto ajudar na sua rotina, deixe uma ⭐ **Star** no GitHub e compartilh
 
 *Imagem de abertura: arte promocional conceitual. A interface real está disponível na demonstração online.*
 
+### 🧪 Validação, feedback e divulgação
+
+Ajude a testar o Kanban Flow: [roteiro de validação](docs/VALIDACAO-COM-USUARIOS.md) · [roadmap v1.1](docs/ROADMAP-V1.1.md) · [plano de divulgação](docs/PLANO-DIVULGACAO.md).
+
+Envie uma [sugestão ou problema](https://github.com/weslleyanjos03-png/kanban-flow/issues/new/choose) utilizando exemplos fictícios. Não compartilhe dados pessoais ou backups reais.
+
+> A versão oficialmente lançada continua sendo **v1.0.0**. Melhorias posteriores no código estão em validação.
+
 ### 📄 Licença
 
 Código disponível sob a [licença MIT](LICENSE).

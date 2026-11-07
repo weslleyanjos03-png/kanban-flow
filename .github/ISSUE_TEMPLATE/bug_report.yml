@@ -1,0 +1,32 @@
+name: Relatar um problema
+description: Ajude a corrigir um erro, sem incluir dados pessoais ou backups reais.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Obrigado pelo relato. Não inclua credenciais, dados de clientes ou arquivos de backup pessoais. Vulnerabilidades devem seguir o SECURITY.md."
+  - type: textarea
+    id: problema
+    attributes:
+      label: O que aconteceu?
+      description: Descreva o comportamento observado.
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como reproduzir com dados fictícios?
+      description: Dê passos reproduzíveis e o resultado esperado.
+    validations:
+      required: true
+  - type: dropdown
+    id: dispositivo
+    attributes:
+      label: Em qual dispositivo?
+      options:
+        - Android
+        - iPhone ou iPad
+        - Computador
+        - Outro
+    validations:
+      required: true

@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: '22'
       - name: Executar testes sem dependências externas
-        run: node --test tests/kanban-data.test.cjs
+        run: node --test tests/*.test.cjs
